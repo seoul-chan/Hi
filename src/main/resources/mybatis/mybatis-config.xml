@@ -5,4 +5,8 @@
     <mappers>
         <mapper resource="TestMapper.xml"/>
     </mappers>
+
+<!--    <typeAliases>-->
+<!--        <typeAlias alias="TestDto" type="com.hi.domain.TestDto"/>-->
+<!--    </typeAliases>-->
 </configuration>

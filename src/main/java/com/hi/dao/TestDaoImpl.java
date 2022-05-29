@@ -11,7 +11,7 @@ import java.util.List;
 public class TestDaoImpl implements TestDao {
     @Autowired
     private SqlSession session;
-    private static String namespace = "com.hi.initTest.dao.TestMapper.";
+    private static String namespace = "com.hi.dao.TestMapper.";
 
     @Override
     public List<TestDto> getAllDataList() {
