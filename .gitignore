@@ -1,9 +1,9 @@
 HELP.md
 *.gradle
-*.properties
-*.bat
-gradlew
-
+#*.properties
+#*.bat
+#gradlew
+!build.gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
